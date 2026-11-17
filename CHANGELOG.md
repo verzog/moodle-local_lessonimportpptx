@@ -9,6 +9,12 @@ belong to.
 
 ## Unreleased
 
+### Added
+- An API class (`\local_lessonimportpptx\api`) that other plugins can call to import a presentation
+  from a file on the server into a lesson, and to find or create that lesson. It does not
+  depend on a logged-in user, so it works from a scheduled or background task.
+  `api::API_VERSION` is `1`.
+
 ### Changed
 - Requires Moodle 5.1 or later and declares support for Moodle 5.1 to 5.3 LTS.
   Moodle 5.0 is no longer tested.
