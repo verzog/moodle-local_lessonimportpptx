@@ -7,6 +7,14 @@ semantic-ish versioning in `$plugin->release`. Routine follow-ups that only
 satisfied the code checker (phpcs/phpdoc) are folded into the release they
 belong to.
 
+## Unreleased
+
+### Changed
+- Requires Moodle 5.1 or later and declares support for Moodle 5.1 to 5.3 LTS.
+  Moodle 5.0 is no longer tested.
+- CI tests Moodle 5.1, 5.2 and 5.3 LTS, plus Moodle `main` (allowed to fail), and
+  runs the JavaScript and CSS build check on Moodle 5.1.
+
 ## 1.12.3 – 2026-08-27
 
 ### Fixed
