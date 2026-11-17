@@ -7,7 +7,7 @@ semantic-ish versioning in `$plugin->release`. Routine follow-ups that only
 satisfied the code checker (phpcs/phpdoc) are folded into the release they
 belong to.
 
-## Unreleased
+## 1.13.0 – 2026-11-17
 
 ### Added
 - An API class (`\local_lessonimportpptx\api`) that other plugins can call to import a presentation
